@@ -12,7 +12,7 @@ _Cognito will be used to assign temporary credentials for securely accessing AWS
 6.	In the screen that appears, click “Allow” (in the bottom, right-hand corner of the screen).
 7.	Note the identity pool ID that is displayed in the center of the screen (please see the following example screenshot).
 
-![](Lab4-Images/Cognito_ID_Pool_ID.png)
+![](./Cognito_ID_Pool_ID.png)
 
 8.	Copy that into a text file because you will use it in a later step.
 
@@ -41,7 +41,7 @@ _This is the bucket to which DeepLens will upload images._
 *	Region: US East (N. Virginia)
 3.	Click "Create".
 
-![](Lab4-Images/ML_Bucket.png)
+![](./ML_Bucket.png)
 
 ## 3. Create S3 Bucket for Static Website Hosting
 
@@ -61,9 +61,9 @@ _We will use a static website to host a web-page that will be used for approving
 
 ## 4. Create the Approval Static Web Page
 
-_The document at the following link contains the HTML code for the static web page that will be used for allowing manual approval of images to be added to the Rekognition collection: [index.html](Lab4-Images/index.html)_
+_The document at the following link contains the HTML code for the static web page that will be used for allowing manual approval of images to be added to the Rekognition collection: [index.html](./index.html)_
 
-1. Copy the _[index.html](Lab4-Images/index.html)_ file to your computer, save it as index.html, and make the following substitution:
+1. Copy the _[index.html](./index.html)_ file to your computer, save it as index.html, and make the following substitution:
 •	Replace “us-east-1:41ea7eaa-bab9-434a-905f-85b835b97c2a” with the identity pool ID you noted in section 1, step 7 above.
 
 _Next, we will upload that file to S3 according to the following steps:_
@@ -74,9 +74,9 @@ _Next, we will upload that file to S3 according to the following steps:_
 4.	Click “Upload”.
 5.	Now, in that bucket in S3, click on the file that you just uploaded, and then click “Make Public” (see screenshot below).
 
-![](Lab4-Images/Make_public.png)
+![](./Make_public.png)
 
 6.	Ensure that you can access your website via your browser by clicking on the link that is displayed at the bottom of the screen for that file (see screenshot above for reference).
 7.	You should see a web-page like this:
 
-![](Lab4-Images/Approval_page.png)
+![](./Approval_page.png)
