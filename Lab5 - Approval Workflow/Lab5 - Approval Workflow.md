@@ -27,7 +27,7 @@ _We will use the AWS Step Functions service to define and control our overall wo
 }
 ```
 
-![](./Step_fns.png)
+![](./Step_fns2.png)
 
 6.	Click "Create State Machine" (at the bottom of the page).
 7.	On the left-hand side of the screen, click "Tasks", then click "Create new activity".
