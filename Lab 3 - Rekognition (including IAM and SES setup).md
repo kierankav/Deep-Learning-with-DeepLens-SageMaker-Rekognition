@@ -88,4 +88,5 @@ aws rekognition list-collections --region us-east-1
 4.	With the following command, you will see that there are currently no faces in your newly-created collection:
 aws rekognition list-faces --collection-id "aiweek" --region us-east-1
 
-_**Lab 3 Complete!**_  [Next: Lab 4 - Approval Verification Website](./Lab 4 - Approval Verification Website.md)
+_**Lab 3 Complete!**_  [Next: Lab 4 - Approval Verification Website](./Lab%204%20-%20Approval%20Verification%20Website.md)
+
