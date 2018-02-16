@@ -57,3 +57,7 @@ _We will use a static website to host a web-page that will be used for approving
 5.	Select the "Use this bucket to host a website" option.
 6.	In the "Index document" textbox, type index.html
 7.	Click "Save".
+
+
+## 4. Create the Approval Static Web Page
+
