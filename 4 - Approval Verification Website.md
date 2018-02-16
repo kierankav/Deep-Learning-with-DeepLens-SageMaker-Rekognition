@@ -61,3 +61,22 @@ _We will use a static website to host a web-page that will be used for approving
 
 ## 4. Create the Approval Static Web Page
 
+_The document at the following link contains the HTML code for the static web page that will be used for allowing manual approval of images to be added to the Rekognition collection: [index.html](Lab4-Images/index.html)_
+
+1. Copy the _[index.html](Lab4-Images/index.html)_ file to your computer, save it as index.html, and make the following substitution:
+•	Replace “us-east-1:41ea7eaa-bab9-434a-905f-85b835b97c2a” with the identity pool ID you noted in section 1, step 7 above.
+
+_Next, we will upload that file to S3 according to the following steps:_
+
+1.	In the AWS Console, click on “Services” in the top, left-hand corner of the screen, and click on “S3” (you can find it by typing _s3_ into the search field at the top of the screen).
+2.	In your list of S3 buckets, click on the bucket you created in section 1.2, step 1.(i.e. [Your name or username]-web), and click “Upload”.
+3.	Either drag and drop your file into that space, or click “Add files” browse for the file on your computer.
+4.	Click “Upload”.
+5.	Now, in that bucket in S3, click on the file that you just uploaded, and then click “Make Public” (see screenshot below).
+
+![](Lab4-Images/Make_public.png)
+
+6.	Ensure that you can access your website via your browser by clicking on the link that is displayed at the bottom of the screen for that file (see screenshot above for reference).
+7.	You should see a web-page like this:
+
+![](Lab4-Images/Verification_page.png)
