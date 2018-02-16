@@ -1,4 +1,4 @@
-# 4 - Approval Verification Website
+# Lab 4 - Approval Verification Website
 
 ## 1. Create Cognito Identity Pool
 
@@ -79,4 +79,4 @@ _Next, we will upload that file to S3 according to the following steps:_
 6.	Ensure that you can access your website via your browser by clicking on the link that is displayed at the bottom of the screen for that file (see screenshot above for reference).
 7.	You should see a web-page like this:
 
-![](Lab4-Images/Verification_page.png)
+![](Lab4-Images/Approval_page.png)
