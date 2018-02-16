@@ -1,4 +1,4 @@
-# 6 - Bringing it All Together (Create DynamoDB Table and Lambda Functions)
+# Lab 6 - Bringing it All Together (Create DynamoDB Table and Lambda Functions)
 
 ## 1. Create DynamoDB Table
 
