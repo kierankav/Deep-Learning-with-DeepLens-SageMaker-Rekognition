@@ -80,3 +80,5 @@ _Next, we will upload that file to S3 according to the following steps:_
 7.	You should see a web-page like this:
 
 ![](./Approval_page.png)
+
+_**Lab 4 Complete! [Next: Lab 5 - Approval Workflow](5-Approval%20Workflow/5-Approval%20Workflow.md)**_
