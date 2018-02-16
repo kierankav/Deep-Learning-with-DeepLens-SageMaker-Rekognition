@@ -90,3 +90,4 @@ o	Stage name: respond
 ![](./Approval_page.png)
 
 
+_**Lab 5 Complete! [Next: Lab 6 - Bringing it All Together](../Lab6%20-%20Bringing%20it%20All%20Together/Lab6%20-%20Bringing%20it%20All%20Together.md)**_
