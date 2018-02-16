@@ -1,0 +1,17 @@
+{
+  "Comment": "Image review process!",
+  "StartAt": "ManualApproval",
+  "States": {
+    "ManualApproval": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:us-east-1:645849832089:activity:ManualStep",
+      "TimeoutSeconds": 3600,
+      "Next": "PostApproval"
+    },
+    "PostApproval": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:us-east-1:645849832089:function:ki-aiweek-post-approval",
+      "End": true
+    }
+  }
+}
