@@ -3,7 +3,7 @@
 ## Prerequisites
 1.	Install the AWS CLI by following the instructions at the following link: https://docs.aws.amazon.com/cli/latest/userguide/installing.html
 2.	Configure the AWS CLI by following the instructions at the following link: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
-3.	Log into the AWS Console before proceeding with the steps below: https://console.aws.amazon.com
+3.	Log into the AWS Console before proceeding with the steps below (create an account if you don't already have one): https://console.aws.amazon.com
 4.	For all steps (except IAM steps), ensure that the "US East (N Virginia)" region is selected in the top, right-hand corner of console screen (see screen-shot below).
 
 ![](./Region.png)
