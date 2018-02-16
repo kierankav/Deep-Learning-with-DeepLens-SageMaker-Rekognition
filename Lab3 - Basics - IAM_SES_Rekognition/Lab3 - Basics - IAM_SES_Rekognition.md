@@ -6,7 +6,7 @@
 3.	Log into the AWS Console before proceeding with the steps below: https://console.aws.amazon.com
 4.	For all steps (except IAM steps), ensure that the "US East (N Virginia)" region is selected in the top, right-hand corner of console screen (see screen-shot below).
 
-![](Lab3-Images/Region.png)
+![](./Region.png)
 
 
 ## 1. Create IAM Roles
@@ -20,11 +20,11 @@ _We need to create an IAM role to allow our Lambda functions to access AWS servi
 3.	Click “AWS service” and click “Lambda” (see screenshot below).
 4.	Click “Next: Permissions” (at the bottom of the screen).
 
-![](Lab3-Images/Lambda_IAM_Screen1.png)
+![](./Lambda_IAM_Screen1.png)
 
 5.	In the Search field, type _s3_, and then select “AmazonS3FullAccess” (i.e. click the checkbox to the left of “AmazonS3FullAccess”; see screenshot below).
 
-![](Lab3-Images/Lambda_IAM_Screen2_Policy.png)
+![](./Lambda_IAM_Screen2_Policy.png)
 
 6.	Repeat for other required services as follows…
 7.	In the Search field, type _step_, and then select “AWSStepFunctionsFullAccess”.
@@ -88,5 +88,5 @@ aws rekognition list-collections --region us-east-1
 4.	With the following command, you will see that there are currently no faces in your newly-created collection:
 aws rekognition list-faces --collection-id "aiweek" --region us-east-1
 
-_**Lab 3 Complete!**_  [Next: Lab 4 - Approval Verification Website](./Lab%204%20-%20Approval%20Verification%20Website.md)
+_**Lab 3 Complete!  [Next: Lab 4 - Approval Verification Website](./Lab%204%20-%20Approval%20Verification%20Website.md)**_
 
